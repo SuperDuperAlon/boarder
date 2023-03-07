@@ -2,7 +2,7 @@
 import React from "react";
 import { Routes, Route } from "react-router";
 import { AppHeader } from "./cmps/app-header.jsx";
-import { CardIndex } from './views/card-index.jsx'
+import { UserDashboard } from './views/user-dashboard.jsx'
 
 export function RootCmp() {
     return (
@@ -10,7 +10,7 @@ export function RootCmp() {
         <AppHeader />
         <main>
           <Routes>
-          <Route path="/" element={<CardIndex />} />
+          <Route path="/" element={<UserDashboard />} />
           </Routes>
         </main>
       </div>
