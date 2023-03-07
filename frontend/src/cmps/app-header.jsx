@@ -2,7 +2,9 @@ export function AppHeader () {
     return (
         <>
             <header>
-                <h1>Boarder</h1>
+                <nav>
+                    <h1>Boarder</h1>
+                </nav>
             </header>
         </>
     )
