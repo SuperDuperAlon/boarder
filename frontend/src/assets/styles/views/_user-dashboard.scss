@@ -3,15 +3,17 @@
   grid-template-columns: 272px 825px;
 }
 
-.user-side-navabr {
+.user-side-navbar {
   margin-top: rem(40px);
   padding: 0 1rem;
 }
 
+.user-side-navbar-top ul {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .user-sidenav-main-link {
   padding: rem(6px) rem(8px) rem(6px) 0;
-  line-height: 1.25rem;
-  font-size: rem(14px);
   font-weight: 600;
   color: #172b4d;
   margin-bottom: 0.25rem;
@@ -19,10 +21,13 @@
   &:hover {
     background: rgba(9, 30, 66, 0.08);
     border-radius: 0.25rem;
-    // opacity: 0.08;
   }
 
   &:active {
     color: #0079bf;
   }
+}
+
+.user-side-navbar-bottom {
+    padding: 0.75rem 0 2.5rem;
 }
