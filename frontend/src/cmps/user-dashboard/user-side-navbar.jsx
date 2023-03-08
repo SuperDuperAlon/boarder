@@ -9,20 +9,28 @@ export function UserDashboardSidebar() {
   ];
   return (
     <>
-      <div className="user-side-navabr">
-        <ul>
-          {mainLinks.map((link) => {
-            return <a href=""><li className="user-sidenav-main-link">{link}</li></a>;
-          })}
-        </ul>
-        <hr />
-        <div>Workspaces +</div>
-        <div>email ^</div>
-        <ul>
-          {secondaryLinks.map((link) => {
-            return <li>{link}</li>;
-          })}
-        </ul>
+      <div className="user-side-navbar">
+        <div className="user-side-navbar-top">
+          <ul>
+            {mainLinks.map((link) => {
+              return (
+                <a href="">
+                  <li className="user-sidenav-main-link">{link}</li>
+                </a>
+              );
+            })}
+          </ul>
+        </div>
+
+        <div className="user-side-navbar-bottom">
+          <div className="fs12-lh16 pad-y-8">Workspaces +</div>
+          <div className="pad-y-13">email ^</div>
+          <ul>
+            {secondaryLinks.map((link) => {
+              return <li className="fs12">{link}</li>;
+            })}
+          </ul>
+        </div>
       </div>
     </>
   );
