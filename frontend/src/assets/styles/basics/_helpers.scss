@@ -49,8 +49,16 @@
     margin-bottom: rem(10px);
 }
 
+.mar-b-11 {
+    margin-bottom: rem(11px);
+}
+
 .mar-b-20 {
     margin-bottom: rem(20px);
+}
+
+.mar-l-8 {
+    margin-left: rem(8px);
 }
 
 
@@ -68,4 +76,14 @@
 // Layout 
 .flex {
     display: flex;
+}
+
+// Text Transformation
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
