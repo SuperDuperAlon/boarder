@@ -1,10 +1,15 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family: helvetica, sans-serif;
+
+
+  // background-color: #fafbfc;
+}
+
+body {
   font-size: 14px;
   line-height: 20px;
-  // background-color: #fafbfc;
+  font-family: helvetica, sans-serif;
 }
 
 img {
@@ -27,6 +32,7 @@ ul {
 }
 
 li {
+  font-family: helvetica, sans-serif;
   list-style-type: none;
 }
 

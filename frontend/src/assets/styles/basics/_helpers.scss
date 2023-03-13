@@ -1,3 +1,7 @@
+.fw600 {
+    font-weight: 600;
+}
+
 .fs12-lh16 {
     font-size: 0.75rem;  
     line-height: 1rem;
@@ -7,13 +11,61 @@
     font-size: 0.75rem;  
 }
 
+.fs16 {
+    font-size: 1rem;  
+}
+
+.fs16-lh24 {
+    font-size: 1rem;  
+    line-height: 1.5rem;
+}
+
+.fs24 {
+    font-size: 1.5rem;  
+}
+
 .pad-y-8 {
     padding: 0.5rem 0 0.5rem;
 }
 
+.pad-y-11 {
+    padding: rem(11px) 0;
+}
 
 .pad-y-13 {
     padding: rem(13px) 0 rem(13px);
 }
 
-//colors
+// Margins 
+
+.mar-y-20 {
+    margin: rem(20px) 0;
+}
+.mar-y-40 {
+    margin: rem(40px) 0;
+}
+
+.mar-b-10 {
+    margin-bottom: rem(10px);
+}
+
+.mar-b-20 {
+    margin-bottom: rem(20px);
+}
+
+
+
+//text - colors
+
+.text-white {
+    color: #fff
+}
+
+.txt-dg1 {
+    color: $darkgrey-1;
+}
+
+// Layout 
+.flex {
+    display: flex;
+}
