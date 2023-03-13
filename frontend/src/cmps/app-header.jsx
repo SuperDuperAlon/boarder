@@ -3,7 +3,7 @@ export function AppHeader () {
         <>
             <header>
                 <nav>
-                    <h1>Boarder</h1>
+                    <div className="fs24 fw600">Boarder</div>
                 </nav>
             </header>
         </>
